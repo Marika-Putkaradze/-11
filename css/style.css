@@ -13,6 +13,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    grid-area: HEADER;
  
 }
 
@@ -29,8 +30,6 @@ font-family: Inter;
 font-size: 18px;
 font-weight: 400;
 line-height: 21.78px;
-text-align: left;
-letter-spacing: -0.44023728370666504px;
  color: #DFD9D9;
 }
 
@@ -45,18 +44,17 @@ padding: 8px 20px 7px 20px;
 }
 .h3{
     font-family: Inter;
-font-size: 16px;
-font-weight: 700;
-line-height: 24px;
-text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
 }
 .button1{
-font-family: Inter;
-font-size: 14px;
-font-weight: 700;
-line-height: 22px;
-text-align: left;
-background: #C3B97F;
+    width: 315px;
+    height: 32px;
+    background-color: #04312d;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 
 }
 
@@ -82,7 +80,8 @@ top: 128px;
 left: 20px;
 gap: 0px;
 opacity: 0px;
-margin: auto;
+margin: 0 auto;
+grid-area: SECTION2;
 
 }
 
@@ -176,3 +175,72 @@ align-items: center;
 .navphoto{
     margin: auto;
 }
+section4{
+    display: flex;
+    background-color: #04312d;
+  }
+  
+  .photo1 {
+   
+    grid-area: PHOTO1;
+  }
+  
+  .photo2 {
+    
+    grid-area: PHOTO2;
+  }
+  
+  .photo3 {
+   
+    grid-area: PHOTO3;
+  }
+  
+  .photo4 {
+  
+    grid-area: PHOTO4;
+  }
+  
+  h3 {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+  
+    color: #1c5550;
+  }
+  .article_div {
+    width: 320px;
+    height: 40px;
+    background-color: #dfd9d9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #04312d;
+  }
+  .articleText {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #dfd9d9;
+  }
+  .PRICE {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #1c5550;
+  }
+  button {
+    width: 97px;
+    height: 40px;
+    background-color: #c3b97f;
+    border: none;
+  }
+  .buttontext {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #dfd9d9;
+  }
