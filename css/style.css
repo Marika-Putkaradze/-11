@@ -2,7 +2,6 @@
     width: min(100%, 1440px);
     margin: auto;
     background-color: #1C5550;
-    ;
     
 }
 
@@ -245,4 +244,4 @@ align-items: center;
     font-weight: 700;
     line-height: 22px;
     color: #dfd9d9;
-  }.
+  }
